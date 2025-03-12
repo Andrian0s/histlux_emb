@@ -1,6 +1,7 @@
-TO BE UPDATED BEFORE ARXIV CR Update 
-1. Move to Impresso and update paper links.
-2. Rest can be fixed straight after submission
+Pending (near future):
+1. Add source code and test set within the files
+2. Update and polish repository to be fit for impresso
+
 
 
 Models:
