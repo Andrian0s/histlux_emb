@@ -1,23 +1,20 @@
 Pending (near future):
-1. Add source code and test set within the files
-2. Update and polish repository to be fit for impresso
+1. Update and polish repository to be fit for impresso standards
 
 
 
-Models:
+Released Models:
 
 [histlux-gte-multilingual-base](https://huggingface.co/impresso-project/histlux-gte-multilingual-base)
 
 [histlux-paraphrase-multilingual-mpnet-base-v2](https://huggingface.co/impresso-project/histlux-paraphrase-multilingual-mpnet-base-v2)
 
-Datasets:
+Released Datasets:
 
 Training Set:
 
 [HistLuxAlign](https://huggingface.co/datasets/impresso-project/HistLuxAlign)
 
-Test Set (consider to simply upload to the GH Repo):
+Bitext Mining Test Set (already prepared for convinience):
 
-https://drive.google.com/file/d/1DHMyqe3nCc1RSQunmLqGQOl3T5047czZ/view?usp=share_link
-
-Full source replication code is coming soon! (Before CR version)
+[GoogleDriveLink](https://drive.google.com/file/d/1B_na_iXXa5nNcfh8L7sNIln9hNkji0ad/view?usp=share_link)
