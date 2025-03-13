@@ -3,11 +3,11 @@
 
 ## Overview
 
-This repository allows replication of the experiments from the research titled "PARAPHRASUS: A Comprehensive Benchmark for Evaluating Paraphrase Detection Models" and is extendable to allow further experimentation, qualitative analysis. It includes:
+This repository allows replication of the experiments from the research titled "Adapting Multilingual Embedding Models to Historical Luxembourgish". This repository includes:
 
-- Original predictions generated using the models described in the paper, useful for further qualitative or quantitative analysis.
-- Scripts and configuration files to reproduce the results.
-- Utility scripts to reproduce statistics plots and so on.
+- Scripts and notebooks to replicate the training and evaluation of the examined models.
+- The training and test data created through articles in Historical Luxembourgish.
+- Our reccomended adapted models to be used for semantic search to and from Historical Luxembourgish.
 
 ## Repository Organization:
 
@@ -37,15 +37,9 @@ The repository is organized as follows:
 │   └── Benchmark configuration for the methods used in the paper.
 ├── llama3_3_70b_config.json
 │   └── Benchmark configuration for running the benchmark using Llama3.3 70b Q8 and 8b Q4
+```
 
-
-Released Models:
-
-[histlux-gte-multilingual-base](https://huggingface.co/impresso-project/histlux-gte-multilingual-base)
-
-[histlux-paraphrase-multilingual-mpnet-base-v2](https://huggingface.co/impresso-project/histlux-paraphrase-multilingual-mpnet-base-v2)
-
-Released Datasets:
+## Released Datasets:
 
 Training Set:
 
@@ -55,8 +49,30 @@ Bitext Mining Test Set (already prepared for convinience):
 
 [GoogleDriveLink](https://drive.google.com/file/d/1B_na_iXXa5nNcfh8L7sNIln9hNkji0ad/view?usp=share_link)
 
+## Released Models:
+
+Reccomended: [histlux-gte-multilingual-base](https://huggingface.co/impresso-project/histlux-gte-multilingual-base)
+
+Alternative: [histlux-paraphrase-multilingual-mpnet-base-v2](https://huggingface.co/impresso-project/histlux-paraphrase-multilingual-mpnet-base-v2)
+
 ## Further Support
 If you are interested in contributing or need further support reproducing/recreating/extending the results, please reach out to andrianos.michail@cl.uzh.ch.
+
+## BibTeX Reference
+
+If you would like to cite this project, or the associated paper, here's a bibtex:
+
+```bibtex
+@misc{michail2025adaptingmultilingualembeddingmodels,
+      title={Adapting Multilingual Embedding Models to Historical Luxembourgish}, 
+      author={Andrianos Michail and Corina Julia Raclé and Juri Opitz and Simon Clematide},
+      year={2025},
+      eprint={2502.07938},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.07938}, 
+}
+```
 
 ## About Impresso
 
