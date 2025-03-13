@@ -14,29 +14,18 @@ This repository allows replication of the experiments from the research titled "
 The repository is organized as follows:
 
 ```
-├── original_reproduction_code
-│   └── The initial version of the repository.
-├── datasets_no_results
-│   └── Contains the datasets used in the experiments, in a JSON format. Copied for every new benchmark
-├── models
-│   └── Empty models file used in the experiments.
-├── benchmarking.py
-│   └── Main benchmarking code, for running predictions on the datasets using specified methods.
-├── extract_results.py
-│   └── Script for extracting result of a benchmark.
-├── lm_studio_templates
-|   └──templates.py
-|      └──Sample functions for making prediction functions using LM Studio
-|   └──paper_methods.py
-|      └──methods used in the paper to run benchmarks using LM Studio
-|   └──l70b_methods.py
-|      └──methods to run the benchmark using Llama3.3 70b Q8 and 8b Q4
-├── logger.py
-│   └── Utility for managing logging: all events are logged both to stdout and to a local logs.log file.
-├── paper_config.json
-│   └── Benchmark configuration for the methods used in the paper.
-├── llama3_3_70b_config.json
-│   └── Benchmark configuration for running the benchmark using Llama3.3 70b Q8 and 8b Q4
+├── RAW_test_set_sentences
+│   └── The test set sentences that constitute the bitext mining task, in a jsonl raw unprocessed format.
+├── prepared_training_sentences
+│   └── The prepared sentences pairs used within the training set. (Also available in HuggingFace datasets format)
+├── raw_translations_json
+│   └── The original post-corrected translations files before training and test split.
+├── HistLuxEmb_Prepare_Data_and_Evaluation.ipynb
+│   └── Jupyter notebook to follow through to prepare the data (including utilities) and evaluate existing models.
+├── HistLuxEmb_Contrastive_Training.ipynb
+│   └── Jupyter notebook to follow through to perform the contrastive training that was appleid to LaBSE, LuxEmbedder and M-GTE.
+├── HistLuxEmb_M-Mpnet_Knowledge_Dist.py
+│   └── Python script to extend the Multilingual-MPNet model to support Historical and Modern Luxembourgish.
 ```
 
 ## Released Datasets:
